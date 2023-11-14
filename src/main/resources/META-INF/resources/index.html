@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lynx Compressor</title>
+
+    <link rel="icon" type="image/x-icon" href="/icono.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+<img src="/lynx.png" alt="Descripción de la imagen">
+
+<p class="texto">
+    Reduce el Peso de Tus Imágenes
+    <span>
+            Lynx The Compressor
+        </span>
+    &mdash; Sin Perder Calidad &mdash;
+</p>
+
+<form method="post" action="/compress" enctype="multipart/form-data" id="compress-form">
+    <span id="file-selected">Ningún archivo seleccionado</span>
+    <label for="files" class="custom-file-upload">
+        <input type="file" id="files" name="files" accept=".jpg, .jpeg, .png" multiple onchange="displayFileName(this)">
+        Elegir imágen
+    </label>
+    <button type="submit" class="btn-comprimir">Comprimir</button>
+</form>
+
+<div>
+    <p id="message"><!--[[${message}]]--></p>
+</div>
+
+
+<footer class="footer">
+    <p class="footer-copyright">&copy; Jonathan9s</p>
+    <div class="footer-icons">
+        <a href="https://github.com/jonnathan9s/Compresor-Imagenes" target="_blank">
+            <img src="/github.png" alt="GitHub">
+        </a>
+        <a href="https://discord.com/users/1170055357830275214" target="_blank">
+            <img src="/discord.png" alt="Discord">
+        </a>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   font-family: Arial, sans-serif;
+}
+h1 {
+   font-size: 2em;
+   text-align: center;
+}
+form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+}
+/* Oculto el input de tipo archivo */
+input[type="file"] {
+   display: none;
+}
+/* Estilo del botón personalizado */
+.custom-file-upload,
+button[type="submit"] {
+    padding: 12px 18px;
+    background-color: #ee5100;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.btn-comprimir {
+    width: 120px;
+    height: 40px;
+}
+.custom-file-upload:hover,
+    button[type="submit"]:hover {
+    background-color: #45a049;
+}
+#message {
+   color: green;
+}
+p {
+   width: 40em;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 0.5em;
+   font: 400 1em/1.5 "Neuton";
+   color: #000;
+   display: inline-block;
+   border-width: 4px 0;
+   padding: 1.5em;
+}
+p span {
+   font: 700 3.2em/1 "Oswald", sans-serif;
+   letter-spacing: 0;
+   padding: 0.25em 0 0.325em;
+   display: block;
+   margin: 0 auto;
+   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+   background: url("/shadow.png") repeat-y;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: anim 80s linear infinite;
+}
+img[src="/lynx.png"] {
+   width: 250px;
+   height: 250px;
+}
+#file-selected {
+   color: #888;
+   font-size: 10px;
+}
+@-webkit-keyframes anim {
+   0% {
+   background-position: 0% 50%;
+   }
+   100% {
+   background-position: 100% 50%;
+   }
+}
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   }
+.footer-icons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 5px;
+    }
+.footer-icons a {
+     margin: 0 5px;
+     text-decoration: none;
+    }
+.footer-copyright {
+     font-size: 10px;
+     padding: 0px;
+     margin: 0px
+    }
+.footer-icons img {
+     width: 20px;
+     transition: filter 0.3s;
+    }
+.footer-icons img:hover {
+     filter: invert(50%);
+    }
+@media only screen and (max-width: 768px) {
+    .texto {
+     font-size: 11px;
+    }
+}
