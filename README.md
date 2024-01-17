@@ -11,6 +11,8 @@ de las mismas. Los usuarios pueden renderizar una imagen individual o una fila d
 - **Descarga Automática:** Descarga automáticamente la imagen renderizada en la carpeta de descargas del usuario o un archivo RAR en caso de múltiples imágenes.
 
 ## Interfaz Gráfica Con Diseño Responsivo
+[![image1.jpg](https://i.postimg.cc/RCJsX5Yq/image1.jpg)](https://postimg.cc/rzcNwbML)
+
 
 
   
