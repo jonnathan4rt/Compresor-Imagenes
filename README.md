@@ -13,14 +13,12 @@ de las mismas. Los usuarios pueden renderizar una imagen individual o una fila d
 ## Interfaz Gráfica Con Diseño Responsivo
 [![image1.jpg](https://i.postimg.cc/RCJsX5Yq/image1.jpg)](https://postimg.cc/rzcNwbML)
 
-
-
-  
+[![image2.jpg](https://i.postimg.cc/gj4n3B3p/image2.jpg)](https://postimg.cc/T5Ld60kN)
 
 ## Tecnologías Utilizadas
 
 - **Spring Boot:** Framework de desarrollo para Java.
-- **HTML y CSS:** Interfaz de usuario sencilla para seleccionar y renderizar imágenes.
+- **Angular:** Interfaz de usuario sencilla para seleccionar y renderizar imágenes.
 
 ## Requisitos Previos
 
