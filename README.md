@@ -12,7 +12,7 @@ de las mismas. Los usuarios pueden renderizar una imagen individual o una fila d
 
 ## Interfaz Gráfica Con Diseño Responsivo
 
-[![Interfaz Gráfica](https://i.postimg.cc/LXCbwwgH/muestra.png)](https://postimg.cc/MMB5jsY4)
+
   
 
 ## Tecnologías Utilizadas
