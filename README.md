@@ -30,8 +30,6 @@ de las mismas. Los usuarios pueden renderizar una imagen individual o una fila d
 1. **Clonar el Repositorio:**
    ```bash
    git clone https://github.com/jonnathan9s/Compresor-Imagenes.git
-   mvn spring-boot:run
-
 
 ## Contribuciones
 
